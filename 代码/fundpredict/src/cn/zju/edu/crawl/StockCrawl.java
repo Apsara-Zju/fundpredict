@@ -1,7 +1,6 @@
 package cn.zju.edu.crawl;
 
 import java.sql.PreparedStatement;
-import java.sql.ResultSet;
 import java.sql.SQLException;
 
 import cn.zju.edu.util.Constants;
@@ -17,10 +16,6 @@ import com.mysql.jdbc.Statement;
  */
 public class StockCrawl {
 	private static Connection connection;
-	@SuppressWarnings("unused")
-	private Statement statement;
-	@SuppressWarnings("unused")
-	private ResultSet resultSet;
 	PreparedStatement pst = null;
 
 	public StockCrawl() throws SQLException {

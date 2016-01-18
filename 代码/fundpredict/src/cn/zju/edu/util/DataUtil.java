@@ -5,7 +5,6 @@ import java.io.FileWriter;
 import java.io.PrintWriter;
 
 import cn.zju.edu.dao.HistoryDao;
-import cn.zju.edu.dao.StockdataDao;
 
 public class DataUtil {
 	/*
@@ -30,7 +29,6 @@ public class DataUtil {
 		delEmptyPath(file.getParent());
 	}
 
-	private final int sc = Constants.q.length;
 
 	public static void delFile(String path) {
 		File file = new File(path);
